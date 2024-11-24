@@ -1,0 +1,4 @@
+/realtime-chat/node_modules
+/realtime-chat-backend/node_modules
+/realtime-chat/dist
+*.old
