@@ -13,7 +13,7 @@ const RoomSelector: React.FC<RoomSelectorProps> = ({ roomCode, setRoomCode, onCr
     <h1 className="text-4xl font-bold mb-8">Real-Time Chat</h1>
     <div className="messages flex flex-col w-full bg-white shadow-md rounded-lg p-4 mb-4 overflow-y-auto"
     style = {{
-        height: `calc(100vh - 400px)`,
+        height: `calc(100vh - 200px)`,
         maxWidth: `calc(100vw - 200px)`
     }}
     >

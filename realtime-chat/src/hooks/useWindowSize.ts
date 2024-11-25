@@ -6,7 +6,7 @@ export const useWindowSize = () => {
   useEffect(() => {
     const updateMaxMessages = () => {
       const height = window.innerHeight;
-      setMaxMessages(Math.floor((height - 200) / 30));
+      setMaxMessages(Math.floor((height - 300) / 30));
     };
 
     updateMaxMessages();

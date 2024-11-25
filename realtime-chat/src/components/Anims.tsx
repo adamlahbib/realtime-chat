@@ -13,6 +13,7 @@ function Square({ index, size, move }: { index: number, size: number, move: bool
   useFrame((state, delta) => {
     if (mesh.current && move) {
       mesh.current.position.x +=  SPEED * delta
+      mesh.current.rotation.x += 0.01
     }
   })
 
